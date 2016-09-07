@@ -15,12 +15,18 @@ docker run --rm -v /var/lib/docker:/var/lib/docker -v /var/run/docker.sock:/var/
 
 ##### Docker version:
 
-- 1.12, 1.12.1, latest
+- 1.12, 1.12.1, latest:
+
+[![](https://images.microbadger.com/badges/version/fedeg/docker-autobuild-data-container:latest.svg)](http://microbadger.com/images/fedeg/docker-autobuild-data-container:latest "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/fedeg/docker-autobuild-data-container:latest.svg)](http://microbadger.com/images/fedeg/docker-autobuild-data-container:latest "Get your own image badge on microbadger.com")
+
 ```bash
 docker run --rm -v /var/lib/docker:/var/lib/docker -v /var/run/docker.sock:/var/run/docker.sock -e CONTAINER=<run_container_name> -e IMAGE=<image_name> docker-autobuild-data-container:latest
 ```
 
-- 1.11, 1.11.2
+- 1.11, 1.11.2:
+
+[![](https://images.microbadger.com/badges/version/fedeg/docker-autobuild-data-container:1.11.svg)](http://microbadger.com/images/fedeg/docker-autobuild-data-container:1.11 "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/fedeg/docker-autobuild-data-container:1.11.svg)](http://microbadger.com/images/fedeg/docker-autobuild-data-container:1.11 "Get your own image badge on microbadger.com")
+
 ```bash
 docker run --rm -v /var/lib/docker:/var/lib/docker -v /var/run/docker.sock:/var/run/docker.sock -e CONTAINER=<run_container_name> -e IMAGE=<image_name> docker-autobuild-data-container:1.11
 ```
