@@ -1,0 +1,20 @@
+{
+  "name": "docker-autobuild-data-container",
+  "version": "1.0.0",
+  "description": "Autobuilder data container from volumes in running docker container",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "FedeG/docker-autobuild-data-container",
+  "author": {
+    "name": "Federico Gonzalez",
+    "email": "federicogonzalez761@gmail.com",
+    "url": "https://github.com/FedeG/docker-autobuild-data-container"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "q": "^1.4.1"
+  }
+}
