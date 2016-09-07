@@ -7,7 +7,9 @@ Generate image for data container from docker container (in runtime).
 
 [![asciicast](https://asciinema.org/a/ek6n2c6yh26kkziyfp282idp6.png)](https://asciinema.org/a/ek6n2c6yh26kkziyfp282idp6)
 
-### From docker hub:
+### From docker hub: [link](https://hub.docker.com/r/fedeg/docker-autobuild-data-container/)
+
+[![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/fedeg/docker-autobuild-data-container/)
 
 ```bash
 docker run --rm -v /var/lib/docker:/var/lib/docker -v /var/run/docker.sock:/var/run/docker.sock -e CONTAINER=<run_container_name> -e IMAGE=<image_name> docker-autobuild-data-container:latest
