@@ -1,7 +1,7 @@
 docker-autobuild-data-container
 ==============================
 
-Generate image for data container from docker container (in runtime).
+Generate docker image for data container from docker container (in runtime).
 
 ### Demo
 
