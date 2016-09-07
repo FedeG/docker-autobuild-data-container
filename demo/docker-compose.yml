@@ -1,0 +1,16 @@
+version: '2'
+services:
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    restart: always
+    volumes_from:
+      - mongo-data
+  mongo-data:
+    image: mongo:latest
+    volumes:
+      - /data/db
+      - /var/lib/mongodb
+      - /var/log/mongodb
+    entrypoint: /bin/true

@@ -1,0 +1,13 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "description": "example",
+  "main": "example.js",
+  "scripts": {
+    "start": "node example.js",
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
